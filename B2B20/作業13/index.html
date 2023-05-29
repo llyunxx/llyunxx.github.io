@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>作業13</title>
+    <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+    <link type="text/css" rel="stylesheet" href="css/skitter.styles.css"/>
+    <style>
+        .box_skitter_large {
+            width: 640px;
+            height: 427px;
+        }
+
+        body {
+            background-color: #000000;
+        }
+    </style>
+    <script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.skitter.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.animate-colors-min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            //$('.box_skitter_large').skitter();
+            $('.box_skitter_large').skitter({hideTools: true});
+            //$('.box_skitter_large').skitter({thumbs: true, label: true});
+            //$('.box_skitter_large').skitter({navigation: true, dots: false});
+        });
+    </script>
+
+</head>
+<body>
+<div class="border_box">
+    <div class="box_skitter box_skitter_large">
+        <ul>
+            <li>
+                <img src="IMG_1.jpg" class="cubeShow">
+                <div class="label_text">
+                    <p>開心日本遊</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="IMG_2.jpg" class="glassCube">
+                <div class="label_text">
+                    <p>可愛的皇冠</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="IMG_3.jpg" class="cubeJelly">
+                <div class="label_text">
+                    <p>粉色頭髮好漂亮</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="IMG_4.jpg" class="directionRight">
+                <div class="label_text">
+                    <p>我的兩隻寶貝狗狗</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="IMG_5.jpg" class="paralell">
+                <div class="label_text">
+                    <p>狗狗呼呼大睡</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="IMG_6.jpg" class="upBars">
+                <div class="label_text">
+                    <p>我跟莊子儀</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="IMG_7.jpg" class="circles">
+                <div class="label_text">
+                    <p>我跟陳盈穎</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="IMG_8.jpg" class="fade">
+                <div class="label_text">
+                    <p>三個大臉</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="IMG_9.jpg" class="circlesInside">
+                <div class="label_text">
+                    <p>體育課完一起阿姆阿姆吃冰</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="IMG_10.jpg" class="glassBlock">
+                <div class="label_text">
+                    <p>不知道是甚麼時候的合照</p>
+                </div>
+            </li>
+
+
+        </ul>
+    </div>
+</div>
+</body>
+</html>
